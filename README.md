@@ -61,7 +61,7 @@ Endpoints Overview
         System design architecture for hotel booking apps
         Software development team structure
 
-Features Overview
+## Features Overview
     1. API Documentation
     OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
     Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
