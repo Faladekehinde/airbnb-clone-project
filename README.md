@@ -23,3 +23,40 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
     Database Administrator: Manages database design, indexing, and optimizations.
     DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
     QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+
+Endpoints Overview
+    REST API Endpoints
+    Users
+
+        GET /users/ - List all users
+        POST /users/ - Create a new user
+        GET /users/{user_id}/ - Retrieve a specific user
+        PUT /users/{user_id}/ - Update a specific user
+        DELETE /users/{user_id}/ - Delete a specific user
+    Properties
+
+        GET /properties/ - List all properties
+        POST /properties/ - Create a new property
+        GET /properties/{property_id}/ - Retrieve a specific property
+        PUT /properties/{property_id}/ - Update a specific property
+        DELETE /properties/{property_id}/ - Delete a specific property
+    Bookings
+
+        GET /bookings/ - List all bookings
+        POST /bookings/ - Create a new booking
+        GET /bookings/{booking_id}/ - Retrieve a specific booking
+        PUT /bookings/{booking_id}/ - Update a specific booking
+        DELETE /bookings/{booking_id}/ - Delete a specific booking
+    Payments
+
+        POST /payments/ - Process a payment
+    Reviews
+
+        GET /reviews/ - List all reviews
+        POST /reviews/ - Create a new review
+        GET /reviews/{review_id}/ - Retrieve a specific review
+        PUT /reviews/{review_id}/ - Update a specific review
+        DELETE /reviews/{review_id}/ - Delete a specific review
+    Additional Resources
+        System design architecture for hotel booking apps
+        Software development team structure
