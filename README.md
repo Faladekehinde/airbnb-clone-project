@@ -83,4 +83,7 @@ Endpoints Overview
     Features: Post and manage reviews for properties.
     7. Database Optimizations
     Indexing: Implement indexes for fast retrieval of frequently accessed data.
-    Caching: Use caching strategies to reduce database load and improve performance.
+    Caching: Use caching strategies to reduce database load and improve performance
+
+## API Security Overview
+    The API security for this Airbnb clone project focuses on safeguarding user data, ensuring system integrity, and preventing unauthorized access. Key measures include authentication using JWT to verify user identity, role-based authorization to control access levels, and rate limiting to protect against abuse and denial-of-service attacks. HTTPS and data encryption are enforced to secure data in transit and at rest, while payment security is handled through trusted providers like Stripe to ensure financial safety. Input validation and sanitization are also implemented to guard against injection and cross-site scripting (XSS) attacks. Together, these measures form a robust defense against common security threats..
