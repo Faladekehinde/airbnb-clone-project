@@ -26,7 +26,9 @@
   - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
   - QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
-# Endpoints Overview
+##  Database Design
+ 
+ # Endpoints Overview
   
   - REST API Endpoints
     
@@ -107,11 +109,12 @@
 
 # 🚀 CI/CD Pipelines
 
-    CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the process of testing, building, and deploying code changes, helping ensure faster and more reliable development. In this project, CI/CD pipelines will automatically run tests and deploy updates whenever new code is pushed, reducing manual errors and speeding up delivery. This is especially important for maintaining a smooth and consistent experience in a production-ready app like an Airbnb clone.
+CI/CD (Continuous Integration and Continuous Deployment) pipelines automate the process of testing, building, and deploying code changes, helping ensure faster and more reliable development. In this project, CI/CD pipelines will automatically run tests and deploy updates whenever new code is pushed, reducing manual errors and speeding up delivery. This is especially important for maintaining a smooth and consistent experience in a production-ready app like an Airbnb clone.
 
-**Tools that could be used include:**
-    - **GitHub Actions** – for automating workflows such as running tests and deploying code on every push.
-    - **Docker** – for containerizing the app to ensure consistent environments across development, testing, and production.
-    - **Heroku/Vercel/Render** – for hosting and automatic deployment.
-    - **Jest/Supertest** – for automated backend testing.
+#  Tools that could be used include:**
+    
+- GitHub Actions – for automating workflows such as running tests and deploying code on every push.
+- Docker – for containerizing the app to ensure consistent environments across development, testing, and production.
+- Heroku/Vercel/Render – for hosting and automatic deployment.
+- Jest/Supertest – for automated backend testing.
 
